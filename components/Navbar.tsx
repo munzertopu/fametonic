@@ -3,20 +3,20 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="mt-[92px] lg:mt-[81px]">
-      <div className="w-10/12 xl:w-[77%] 2xl:w-2/3 mx-auto flex justify-center lg:justify-between items-center lg:items-center relative">
+    <nav className="fixed top-[90px] lg:top-[81px] left-0 right-0 w-full z-1000 ">
+      <div className="w-10/12 xl:w-[77%] 2xl:w-2/3 mx-auto flex justify-center lg:justify-between items-center lg:items-center relative ">
         <Image
-          src="/fametonic-logo.svg"
+          src="/fametonic-mobile-logo.png"
           width={107.78}
           height={46.07}
-          alt="Fametonic Logo"
+          alt="Fametonic Mobile Logo"
           className="lg:hidden"
         />
         <Image
-          src="/fametonic-mobile-logo.png"
+          src="/fametonic-logo.svg"
           width={173.12}
           height={74}
-          alt="Fametonic Mobile Logo"
+          alt="Fametonic Logo"
           className="hidden lg:block"
         />
         <div className="hidden lg:flex ml-auto items-center gap-10">
