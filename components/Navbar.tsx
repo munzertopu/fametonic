@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-[90px] lg:top-[81px] left-0 right-0 w-full z-1000 ">
-      <div className="w-10/12 xl:w-[77%] 2xl:w-2/3 mx-auto flex justify-center lg:justify-between items-center lg:items-center relative ">
+    <nav className="fixed top-[90px] lg:top-[46px] pt-[5px] lg:pt-[36px] left-0 right-0 w-full z-1000 bg-black">
+      <div className="w-10/12 xl:w-[77%] 2xl:w-2/3 mx-auto flex justify-center lg:justify-between items-center lg:items-center relative">
         <Image
           src="/fametonic-mobile-logo.png"
           width={107.78}
