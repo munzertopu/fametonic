@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="fixed top-[76px] lg:top-[46px] pt-[5px] lg:pt-[35px] left-0 right-0 w-full z-1000 bg-black">
-      <div className="section-container flex justify-center lg:justify-between items-center lg:items-center relative">
+      <div className="section-container flex justify-center lg:justify-between items-center lg:items-center relative py-1.5 lg:py-0">
         <Image
           src="/fametonic-mobile-logo.png"
           width={107.78}
