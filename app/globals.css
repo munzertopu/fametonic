@@ -25,6 +25,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.section-container {
-  @apply w-10/12 xl:w-4/5 2xl:w-2/3 mx-auto;
+@layer utilities {
+  .section-container {
+    @apply w-10/12 xl:w-4/5 2xl:w-2/3 mx-auto;
+  }
+  .hero-text-shadow {
+    text-shadow: 0 4px 4px #fc004e;
+  }
 }
